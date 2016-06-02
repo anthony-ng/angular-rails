@@ -35,5 +35,10 @@ function($scope, posts){
     $scope.incrementUpvotes = function(post) {
         post.upvotes += 1;
     };
+
+    $scope.deletePost = function(post){
+        var deleteIndex = $scope.posts.indexOf(post);
+        $scope.posts.splice(deleteIndex, 1);
+    }
 }]);
 
