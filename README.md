@@ -1,1 +1,1 @@
-# angular-rails
+A simple posting app built by Angular + Rails
